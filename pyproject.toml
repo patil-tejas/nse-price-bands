@@ -1,0 +1,10 @@
+[project]
+name = "nse-price-bands"
+version = "0.1.0"
+description = "Downloads latest nse price band csv"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pytz>=2026.2",
+    "requests>=2.34.2",
+]
